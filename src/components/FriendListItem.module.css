@@ -1,0 +1,22 @@
+.item {
+  max-width: 300px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 7px 7px 26px -11px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 7px 7px 26px -11px rgba(66, 68, 90, 1);
+  box-shadow: 7px 7px 26px -11px rgba(66, 68, 90, 1);
+}
+
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+  margin: 10px;
+}
+
+.avatar {
+}
+
+.name {
+}

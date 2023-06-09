@@ -1,22 +1,31 @@
 .item {
-  max-width: 300px;
+  width: 200px;
   display: flex;
   align-items: center;
+  margin: 5px auto;
   -webkit-box-shadow: 7px 7px 26px -11px rgba(66, 68, 90, 1);
   -moz-box-shadow: 7px 7px 26px -11px rgba(66, 68, 90, 1);
   box-shadow: 7px 7px 26px -11px rgba(66, 68, 90, 1);
 }
 
-.status {
-  width: 15px;
-  height: 15px;
+.status_active {
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
-  background-color: red;
+  background-color: rgb(24, 196, 41);
   margin: 10px;
 }
 
+.status_disactive {
+  composes: status_active;
+  background-color: rgb(250, 20, 20);
+}
+
 .avatar {
+  max-width: 40px;
+  padding-right: 10px;
 }
 
 .name {
+  font-weight: 500;
 }
